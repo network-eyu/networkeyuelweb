@@ -1,22 +1,22 @@
-# telebirrweb
+# networkeyuelweb
 
-#### Python package used to integrating telebirr web API with your project.
+#### Python package used to integrating networkeyuel web API with your project.
 
 ```python
 import os
 from dotenv import load_dotenv
-from telebirrweb import TelebirrWeb
+from networkeyuelweb import networkeyuelweb
 from utils import generate_unique
 
 load_dotenv()
 
-telebirrAppID = os.environ.get("TelebirrAppID")
-telebirrAppKey = os.environ.get("TelebirrAppKey")
-telebirrShortCode = os.environ.get("TelebirrShortCode")
-telebirrPublicKey = os.environ.get("TelebirrPublicKey")
+networkeyuelAppID = os.environ.get("NetworkEyuelAppID")
+networkeyuelAppKey = os.environ.get("NetworkEyuelAppKey")
+networkeyuelShortCode = os.environ.get("NetworkEyuelShortCode")
+networkeyuelPublicKey = os.environ.get("NetworkEyuelPublicKey")
 receiveName = "Test"
 
-tele = TelebirrWeb(telebirrAppID, telebirrAppKey, telebirrShortCode, telebirrPublicKey, receiveName)
+tele = networkeyuelweb(networkeyuelAppID, networkeyuelAppKey, networkeyuelShortCode, networkeyuelPublicKey, receiveName)
 subject = "Payment"
 totalAmount = 10
 nonce = generate_unique([], 32)

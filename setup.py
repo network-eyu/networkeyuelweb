@@ -6,17 +6,17 @@ long_description = (this_directory / "README.md").read_text()
 
 
 setup(
-  name = 'telebirrweb',
-  packages = ['telebirrweb'],
+  name = 'networkeyuel-web',
+  packages = ['networkeyuel-web'],
   version = '1.0.1',
   license='MIT',
-  description = 'Python package used to integrate telebirr web API',
+  description = 'Python package used to integrate networkeyuel-web API',
   long_description= long_description,
   long_description_content_type= 'text/markdown',
-  author = 'Mukerem Ali',
-  author_email = 'mukeremali112@gmail.com',
-  url = 'https://github.com/mukerem/telebirrweb',
-  download_url = 'https://github.com/mukerem/telebirrweb/archive/refs/tags/v1.0.1.tar.gz', 
+  author = 'network-eyu',
+  author_email = 'networkeyuel@duck.com',
+  url = 'https://github.com/networkeyuel/networkeyuel-web',
+  download_url = 'https://github.com/networkeyuel/networkeyuel-web/archive/refs/tags/v1.0.1.tar.gz', 
   install_requires=[
       'pycryptodome',
       'requests',

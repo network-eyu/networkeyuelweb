@@ -47,7 +47,7 @@ class DecryptByPublicKey(object):
         return raw_info.decode("utf-8")
 
 
-class TelebirrWeb:
+class NetworkEyuelWeb:
     def __init__(self, appId, appKey, shortCode, publicKey, receiveName) -> None:
         self.appId = appId
         self.appKey = appKey
@@ -111,7 +111,7 @@ class TelebirrWeb:
             raise e
 
         if not response.ok:
-            raise TypeError("Telebirr Transaction Failed")
+            raise TypeError("NetworkEyuel Transaction Failed")
 
         response = response.json()
         return response

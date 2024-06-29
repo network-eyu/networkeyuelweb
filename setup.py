@@ -6,17 +6,17 @@ long_description = (this_directory / "README.md").read_text()
 
 
 setup(
-  name = 'networkeyuel-web',
-  packages = ['networkeyuel-web'],
+  name = 'networkeyuelweb',
+  packages = ['networkeyuelweb'],
   version = '1.0.1',
   license='MIT',
-  description = 'Python package used to integrate networkeyuel-web API',
+  description = 'Python package used to integrate networkeyuel web API',
   long_description= long_description,
   long_description_content_type= 'text/markdown',
   author = 'network-eyu',
   author_email = 'networkeyuel@duck.com',
-  url = 'https://github.com/networkeyuel/networkeyuel-web',
-  download_url = 'https://github.com/networkeyuel/networkeyuel-web/archive/refs/tags/v1.0.1.tar.gz', 
+  url = 'https://github.com/networkeyuel/networkeyuelweb',
+  download_url = 'https://github.com/networkeyuel/networkeyuelweb/archive/refs/tags/v1.0.1.tar.gz', 
   install_requires=[
       'pycryptodome',
       'requests',
